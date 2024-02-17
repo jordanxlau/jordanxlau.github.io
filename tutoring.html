@@ -25,44 +25,6 @@
     </nav>
     <!-- Main Content -->
     <div class = "container-fluid p-30 text-white text-left">
-    <!-- Testimonials -->
-    <!-- The carousel's base code was copied from https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works -->
-    <div class = "row bg-white justify-content-center">
-        <div id="carousel" class="carousel slide carousel-slide">
-            <div class="carousel-inner">
-                <div class="carousel-item text-center active">
-                    <img src="images/quotes.jpg" class="d-block mx-auto" height = "200px">
-                    <div class="carousel-caption d-none d-sm-block text-black">
-                    <br>
-                    <p>In Jordan, I not only found an exceptional tutor but also a role model and mentor for my son. I saw continual improvement of my son's command of the subjects, and grades. I would highly recommend Jordan not only for his academic knowledge, but his teaching style, which delivers results.</p>
-                    <p>Raouf, client</p>
-                    </div>
-                </div>
-                <div class="carousel-item text-center">
-                    <img src="images/quotes.jpg" class="d-block mx-auto" height = "200px">
-                    <div class="carousel-caption d-none d-sm-block text-black">
-                    <br>
-                    <p>Jordan is an enthusiastic student who will apply himself to all worthy endeavours with vigor. He is
-                        largely recognized as the most genuinely nice student at Leaside. When tasked with a challenge, he always
-                        goes above and beyond and assumes a leadership role to help bring his team to greatness.</p>
-                    <p>Sonya, coach</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" style = "color: black;" data-bs-target="#carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" style = "color: black;" data-bs-target="#carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-        <script>
-            const myCarouselElement = document.querySelector('#carousel')
-            const carousel = new bootstrap.Carousel(myCarouselElement, {interval: 2000})
-        </script>
-    </div>
         <div class = "row">
             <div class = "col">
                 <p>Online - Any Age - Free/15mins</p>
@@ -83,6 +45,34 @@
                 <h3>Math or Coding</h3>
             </div>
         </div>
+    </div>
+    <!-- Testimonials -->
+    <!-- The carousel's base code was copied from https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works -->
+    <div class = "row bg-white justify-content-center">
+        <div id="carousel" class="carousel slide carousel-slide">
+            <div class="carousel-inner">
+                <div class="carousel-item text-center active">
+                    <img src="images/quotes1.jpg" class="d-block mx-auto" height = "200px">
+                    <div class="carousel-caption d-none d-sm-block text-black">
+                    <p>In Jordan, I not only found an exceptional tutor but also a role model and mentor for my son. I saw continual improvement of my son's command of the subjects, and grades. I would highly recommend Jordan not only for his academic knowledge, but his teaching style, which delivers results.</p>
+                    <p>Raouf, client</p>
+                    </div>
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="images/quotes1.jpg" class="d-block mx-auto" height = "200px">
+                    <div class="carousel-caption d-none d-sm-block text-black">
+                    <p>Jordan is an enthusiastic student who will apply himself to all worthy endeavours with vigor. He is
+                        largely recognized as the most genuinely nice student at Leaside. When tasked with a challenge, he always
+                        goes above and beyond and assumes a leadership role to help bring his team to greatness.</p>
+                    <p>Sonya, coach</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            const myCarouselElement = document.querySelector('#carousel')
+            const carousel = new bootstrap.Carousel(myCarouselElement, {interval: 2000})
+        </script>
     </div>
 </body>
 
