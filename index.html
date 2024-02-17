@@ -23,10 +23,57 @@
         <a class="nav-link px-3" href="personalprojects.html">Personal Projects</a>
         <a class="nav-link px-3" style = "color:grey;" disabled>Resources</a>
     </nav>
-    <div class = "container-fluid">
-        <div class = "col">I’m currently in my third year of university, specializing in Computer Science at the University of Ottawa with a minor in Linguistics. I am a Dean's Honour List student. I consider myself a well-rounded student, but I’m especially strong in math, computer science, and French. I've tutored for over 3 years and tutored everything from 2nd-grade French Immersion to Calculus and Vectors. I consider myself an excellent tutor because I am patient and can adapt my sessions to every tutee’s individual needs.
-            My interests include swimming, films, and languages. In high school, I was actively involved in swim teams, and drama productions. Actually, I still swim - with the uOttawa Triathlon club! I’m certified in  the Principles of Healthy Child Development. I am also proud to have been awarded twice the Merit Award Bursary and Canadian Hearing Services National Scholarship. I have always been an avid learner, so I now enjoy sharing my knowledge with younger students to help them succeed as well.</div>
-        <div class = "col"><img src = "images/jordan.jpg"></div>
+    <!-- Main Content -->
+    <div class = "container-fluid text-white bg-primary text-left">
+        <div class = "row">
+            <div class = "col-lg-7 p-3"><img src = "images/jordan.jpg"></div>
+            <div class = "col-lg-5 p-3">
+                <h5>Jordan Lau</h5>
+                <h2>All about Me</h2>
+                <p>I'm currently in my third year of university, specializing in Computer Science at the University of Ottawa with a minor in Linguistics. I am a Dean's Honour List student. I consider myself a well-rounded student, but I'm especially strong in math, computer science, and French. I've tutored for over 3 years and tutored everything from 2nd-grade French Immersion to Calculus and Vectors. I consider myself an excellent tutor because I am patient and can adapt my sessions to every tutee's individual needs.
+                </p>
+                <br>
+                <br>
+                <p>My interests include swimming, films, and languages. In high school, I was actively involved in swim teams, and drama productions. Actually, I still swim - with the uOttawa Triathlon club! I'm certified in  the Principles of Healthy Child Development. I am also proud to have been awarded twice the Merit Award Bursary and Canadian Hearing Services National Scholarship. I have always been an avid learner, so I now enjoy sharing my knowledge with younger students to help them succeed as well.</div>
+                </p>
+        </div>
+    
+    <!-- Testimonials -->
+    <!-- The carousel's base code was copied from https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works -->
+    <div class = "row bg-white justify-content-center">
+        <div id="carousel" class="carousel slide carousel-slide">
+            <div class="carousel-inner">
+                <div class="carousel-item text-center active">
+                    <img src="images/quotes.jpg" class="d-block mx-auto" height = "500px" width = "500px">
+                    <div class="carousel-caption d-none d-sm-block text-black">
+                    <p>In Jordan, I not only found an exceptional tutor but also a role model and mentor for my son. I saw continual improvement of my son's command of the subjects, and grades. I would highly recommend Jordan not only for his academic knowledge, but his teaching style, which delivers results.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p>Raouf, client</p>
+                    </div>
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="images/quotes.jpg" class="d-block mx-auto" height = "500px" width = "500px">
+                    <div class="carousel-caption d-none d-sm-block text-black">
+                    <p>Jordan is an enthusiastic student who will apply himself to all worthy endeavours with vigor. He is
+                        largely recognized as the most genuinely nice student at Leaside. When tasked with a challenge, he always
+                        goes above and beyond and assumes a leadership role to help bring his team to greatness.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p>Sonya, coach</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            const myCarouselElement = document.querySelector('#carousel')
+            const carousel = new bootstrap.Carousel(myCarouselElement, {interval: 2000})
+        </script>
+    </div>
     </div>
 </body>
 
