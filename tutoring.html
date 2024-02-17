@@ -10,7 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>   
 </head>
-<body class = "bg-primary">
+<body class = "bg-danger">
     <!-- Banner -->
     <!-- Derived from: https://getbootstrap.com/docs/4.0/examples/navbars/# -->
     <div class="p-3 text-white bg-primary">
@@ -24,31 +24,63 @@
         <!-- <a class="nav-link px-3" href="resources.html">Resources</a> -->
     </nav>
     <!-- Main Content -->
-    <div class = "container-fluid p-30 text-white text-left">
-        <div class = "row">
-            <div class = "col">
-                <p>Online - Any Age - Free/15mins</p>
-                <h3>Consultation</h3>
+    <div class = "container-fluid text-white text-left">
+        <div class = "row my-3">
+            <div class = "col mx-3 bg-primary">
+                <div class = "container">
+                    <div class = "col">
+                        <p>Online - Any Age - Free/15mins</p>
+                        <h3>Consultation</h3>
+                        <button>book</button>
+                    </div>
+                    <div class = "col">
+                        <img src = "images/consultation.jpg">
+                    </div>
+                </div>
             </div>
-            <div class = "col">
-                <p>Online - Grade 1 to 8 - $35/hour</p>
-                <h3>Any Subject</h3>
+            <div class = "col mx-3 bg-primary">
+                <div class = "container">
+                    <div class = "col">
+                        <p>Online - Grade 1 to 8 - $35/hr</p>
+                        <h3>Tutoring for Elementary</h3>
+                        <button>book</button>
+                    </div>
+                    <div class = "col">
+                        <img src = "images/elementary.jpg">
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class = "col">
-                <p>Online - Grade 9 to 12 - $35/hr</p>
-                <h3>French</h3>
+        <div class = "row my-3">
+            <div class = "col mx-3 bg-primary">
+                <div class = "container">
+                    <div class = "col">
+                        <p>Online - Grade 9 to 12 - $35/hr</p>
+                        <h3>Tutoring in French</h3>
+                        <button>book</button>
+                    </div>
+                    <div class = "col">
+                        <img src = "images/french.jpg">
+                    </div>
+                </div>
             </div>
-            <div class = "col">
-                <p>Online - Grade 9 to 12 - $40/hr</p>
-                <h3>Math or Coding</h3>
+            <div class = "col mx-3 bg-primary">
+                <div class = "container">
+                    <div class = "col">
+                        <p>Online - Grade 9 to 12 - $40/hr</p>
+                        <h3>Tutoring in Math or Coding</h3>
+                        <button>book</button>
+                    </div>
+                    <div class = "col">
+                        <img src = "images/math.jpg">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- Testimonials -->
     <!-- The carousel's base code was copied from https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works -->
-    <div class = "row bg-white justify-content-center">
+    <div class = "bg-white justify-content-center">
         <div id="carousel" class="carousel slide carousel-slide">
             <div class="carousel-inner">
                 <div class="carousel-item text-center active">
@@ -70,13 +102,13 @@
             </div>
         </div>
         <script>
-            const myCarouselElement = document.querySelector('#carousel')
-            const carousel = new bootstrap.Carousel(myCarouselElement, {interval: 2000})
+            const CarouselElem = document.querySelector('#carousel')
+            const carousel = new bootstrap.Carousel(CarouselElem, {interval: 5000})
         </script>
     </div>
 </body>
 
-<footer class="container-fluid p-3 text-white bg-primary">
+<footer class="container-fluid p-3 text-white bg-primary fixed-bottom">
     <div class = "row">
         <p>jordanxlau@yahoo.ca</p>
         <p>©2023 Jordan Lau</p>
