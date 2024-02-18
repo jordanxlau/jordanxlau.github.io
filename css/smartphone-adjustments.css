@@ -1,0 +1,14 @@
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+    #carousel{
+        font-size: 60%;
+    }
+
+    .image-fluid{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+/* from https://stackoverflow.com/questions/13847755/css-media-queries-for-screen-sizes */
