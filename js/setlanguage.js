@@ -26,15 +26,21 @@ var download = "Download";
 var download_fr = "Téléchargez (en anglais)"
 
 $(function(){
-    $(document).ready(setEnglish);
+    if(localStorage.getItem("en") == "true"){
+        $(document).ready(setEnglish);
+    } else {
+        $(document).ready(setFrench);
+    }
 });
 
 $(function(){
     $("#en").click(setEnglish);
+    localStorage.setItem("en","true");
 });
 
 $(function(){
     $("#fr").click(setFrench);
+    localStorage.setItem("en","false");
 });
 
 function setEnglish() {
