@@ -9,7 +9,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>   
-    <script src="js/setlanguage.js"></script>  
+    <script src="js/setlanguage.js"></script>
+    <script src="js/collapseaccordion.js"></script>   
 </head>
 <body class = "bg-primary">
     <!-- Banner -->
@@ -22,52 +23,61 @@
         <a class="nav-link px-3" href="index.html">Home</a>
         <a class="nav-link px-3" href="tutoring.html">Tutoring</a>
         <a class="nav-link px-3" href="personalprojects.html">Personal Projects</a>
-        <!-- <a class="nav-link px-3" href="resources.html"><b>Resources</b></a> -->
+        <a class="nav-link px-3" href="resources.html"><b>Resources</b></a>
     </nav>
 
     <!-- Main Content -->
-    <div class = "container-fluid p-30 text-white text-left">
-        <h2>RESOURCES</h2>
-        <a>A collection of videos and accompanying practice worksheets I have created to help my tutees - and you - with a variety of topics!</a>
-        <!-- Accordion from https://getbootstrap.com/docs/5.3/components/accordion/ -->
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
+    <div class = "container-fluid p-3 text-white text-left">
+        <h2 id = "resources"></h2>
+        <a id = "resources_description"></a>
+    </div>
+    <!-- Accordion from https://getbootstrap.com/docs/5.3/components/accordion/ -->
+    <div class="accordion p-3">
+        <div class="accordion-item">
+          <h2 id = "headerOne" class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Exponents Practice
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p>Grade 7 and up</p>
+              <p>Exponent problems covering basic exponentiation, exponentiation with negatives, the power of zero and fractional exponents.</p>
+              <br>
+              <a class = "border border-primary rounded-1 p-3" href = "downloadables/Exponents Practice.pdf" open>Download</a>
             </div>
           </div>
+        </div>
+        <div class="accordion-item">
+          <h2 id = "headerTwo" class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Linear Equations Practice
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p>Grade 8</p>
+              <p>Linear equations with one variable.</p>
+              <br>
+              <a class = "border border-primary rounded-1 p-3" href = "downloadables/Linear Equations Practice.pdf" open>Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 id = "headerThree" class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              The Replacement Test
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p>Grade 7 and up</p>
+              <p>Using the "replacement test" for determining the lexical category (ie. noun, verb, etc.) of a word.</p>
+              <br>
+              <a class = "border border-primary rounded-1 p-3" href = "downloadables/The Replacement Test.pdf" open>Download</a>
+            </div>
+          </div>
+        </div>
     </div>
 </body>
 
