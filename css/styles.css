@@ -1,6 +1,0 @@
-/* Adjust transition for reduced motion */
-@media (prefers-reduced-motion: no-preference) {}
-
-.title{
-    margin-left: 40px;
-}
