@@ -22,6 +22,8 @@ var resources = "Resources";
 var resources_fr = "Ressources";
 var resources_description_fr = "Une suite des vidéos et feuilles de travail créées par moi pour mes élèves - et toi - en plusieurs sujets!";
 var resources_description = "A collection of videos and accompanying practice worksheets I have created to help my tutees - and you - with a variety of topics!";
+var download = "Download";
+var download_fr = "Téléchargez (en anglais)"
 
 $(function(){
     $(document).ready(setEnglish);
@@ -55,6 +57,7 @@ function setEnglish() {
 
     $("#resources").text(resources);
     $("#resources_description").text(resources_description);
+    $(".download").text(download);
 
     //Move to top
     // Derived from: https://howchoo.com/javascript/how-to-animate-scroll-in-jquery/
@@ -83,6 +86,7 @@ function setFrench() {
 
     $("#resources").text(resources_fr);
     $("#resources_description").text(resources_description_fr);
+    $(".download").text(download_fr);
 
     //Move to top
     // Derived from: https://howchoo.com/javascript/how-to-animate-scroll-in-jquery/
