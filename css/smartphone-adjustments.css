@@ -1,13 +1,32 @@
-/* Smartphones (portrait) ----------- */
+/* Most devices */
+.image-fluid{
+    height: 200px;
+    width: 200px;
+}
+
+body{
+    background-color: #6c757d;
+}
+
+/* Small Screens */
 @media only screen 
-and (max-width : 320px) {
+and (max-width : 400px) {
     #carousel{
         font-size: 60%;
     }
 
     .image-fluid{
-        height: 40px;
-        width: 40px;
+        height: 0px;
+        width: 0px;
+    }
+
+    body{
+        background-color: #000D4D;
+    }
+
+    h3{
+        font-size: medium;
+        font-weight: 900;
     }
 }
 

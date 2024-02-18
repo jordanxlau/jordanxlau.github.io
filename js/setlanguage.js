@@ -12,8 +12,8 @@ var tutoring_intro_fr = "J'ai plus que 4 ans d'expérience avec les élèves d'�
 
 var tutoring = "Tutoring";
 var tutoring_fr = "J'enseigne...";
-var display_warning = "NOTICE: This page may not display properly on mobile.";
-var display_warning_fr = "ATTENTION: Cette page-web peut s'afficher incorrectement sur les mobiles.";
+var display_warning = "NOTICE: This page's display may be reduced on mobile.";
+var display_warning_fr = "ATTENTION: L'affichage de cette page-web peut être réduit sur les mobiles.";
 var testimonial1 = "In Jordan, I not only found an exceptional tutor but also a role model and mentor for my son. I saw continual improvement of my son's command of the subjects, and grades. I would highly recommend Jordan not only for his academic knowledge, but his teaching style, which delivers results. - Raouf, client";
 var testimonial2 = "Jordan is an enthusiastic student who will apply himself to all worthy endeavours with vigor. He is largely recognized as the most genuinely nice student at Leaside. When tasked with a challenge, he always goes above and beyond and assumes a leadership role to help bring his team to greatness. - Sonya, coach";
 var testimonial1_fr = "Dans Jordan, j'ai trouvé un tuteur exceptionel, mais aussi un modèle et mentor pour mon fils. J'ai vu une amélioration continuelle dans la maîtrise de mon fils de ses sujets et dans ses notes. Je recommanderais Jordan fortement non seulement pour son connaisance academique, mais pour sa style d'enseignement, qui donne des résultats. - Raouf, client, (traduit de l'anglais)";
