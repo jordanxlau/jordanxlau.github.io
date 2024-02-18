@@ -9,13 +9,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>   
+    <script src="js/setlanguage.js"></script>  
 </head>
 <body class = "bg-primary">
     <!-- Banner -->
     <!-- Derived from: https://getbootstrap.com/docs/4.0/examples/navbars/# -->
     <div class="p-3 text-white bg-primary">
         <h1 class = "title">Jordan Lau</h1>
-        <p class = "title">Student - Tutor - Programmer</p>
+        <p id = "subtitle" class = "title"></p>
     </div>
     <nav class = "navbar navbar-expand-lg p-3 bg-body-tertiary">
         <a class="nav-link px-3" href="index.html">Home</a>
@@ -70,13 +71,14 @@
     </div>
 </body>
 
-<footer class="container-fluid p-3 text-white bg-primary fixed-bottom">
+<footer class="container-fluid p-3 text-white bg-primary text-right justify-content-center">
   <div class = "row">
-      <a class = "col-3"></a>
+      <button id = "en">EN</button>
+      <button id = "fr">FR</button>
       <p class = "col-3"> Jordan Xavier Lau | Ottawa, Ontario | jordanxlau@yahoo.ca | ©2024 Jordan Lau </p>
       <a href="https://www.linkedin.com/in/jordan-lau-40454b233/" class = "col-1"><img style="height: 40px; width: 40px;" class = "img-thumbnail" src = "images/linkedinicon.png"></a>
       <a href="https://www.youtube.com/channel/UC2FWBp83ePz_3naCMxBYbng" class = "col-1"><img style="height: 40px; width: 40px;" class = "img-thumbnail" src = "images/youtubeicon.png"></a>
       <a href="https://github.com/jordanxlau" class = "col-1"><img style="height: 40px; width: 40px;" class = "img-thumbnail" src = "images/githubicon.png"></a>
-      <a class = "col-3"></a>
+      <a class = "col-2"></a>
   </div>
 </footer>
