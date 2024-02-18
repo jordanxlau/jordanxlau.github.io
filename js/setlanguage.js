@@ -14,6 +14,10 @@ var tutoring = "Tutoring";
 var tutoring_fr = "J'enseigne...";
 var display_warning = "NOTICE: This page may not display properly on mobile.";
 var display_warning_fr = "ATTENTION: Cette page-web peut s'afficher incorrectement sur les mobiles.";
+var testimonial1 = "In Jordan, I not only found an exceptional tutor but also a role model and mentor for my son. I saw continual improvement of my son's command of the subjects, and grades. I would highly recommend Jordan not only for his academic knowledge, but his teaching style, which delivers results. - Raouf, client";
+var testimonial2 = "Jordan is an enthusiastic student who will apply himself to all worthy endeavours with vigor. He is largely recognized as the most genuinely nice student at Leaside. When tasked with a challenge, he always goes above and beyond and assumes a leadership role to help bring his team to greatness. - Sonya, coach";
+var testimonial1_fr = "Dans Jordan, j'ai trouvé un tuteur exceptionel, mais aussi un modèle et mentor pour mon fils. J'ai vu une amélioration continuelle dans la maîtrise de mon fils de ses sujets et dans ses notes. Je recommanderais Jordan fortement non seulement pour son connaisance academique, mais pour sa style d'enseignement, qui donne des résultats. - Raouf, client, (traduit de l'anglais)";
+var testimonial2_fr = "Jordan est un étudiant enthousiaste qui s'appliquera à tous les efforts dignes avec vigeur. Il est largement vu comme l'étudiant le plus sincèrement gentil à Leaside. Quand chargé d'un défi, il va toujours au-delà des attentes et il aide a mener son équipe à la grandeur. - Sonya, entraîneuse (traduit de l'anglais)";
 
 var personal_projects = "Personal Projects";
 var personal_projects_fr = "Projets Personnels";
@@ -48,62 +52,72 @@ function checkLanguage(){
 }
 
 function setEnglish() {
-    //Set the language buttons
+    //Set the language and language buttons
     localStorage.setItem("en","true");
     $("#en").attr("class","col-2 btn btn-light mx-2");
     $("#fr").attr("class","col-2 btn btn-dark mx-2");
 
-    //Translate the required text
+    //Translate the required banner text
     $("#subtitle").text(sub_title);
 
+    //Translate the required Home Page text
     $("#all_about_me").text(all_about_me);
     $("#intro").text(intro);
     $("#tutoring_intro").text(tutoring_intro);
     $("#why_i_tutor").text(why_i_tutor);
 
+    //Translate the required Tutoring Page text
     $("#tutoring").text(tutoring);
     $("#display_warning").text(display_warning);
+    $('#testimonial1').text(testimonial1);
+    $('#testimonial2').text(testimonial2);
     
+    //Translate the required Personal Projects Page text
     $("#personal_projects").text(personal_projects);
     $("#research_interests").text(research_interests);
 
+    //Translate the required Resources Page text
     $("#resources").text(resources);
     $("#resources_description").text(resources_description);
     $(".download").text(download);
 
     //Move to top
-    // Derived from: https://howchoo.com/javascript/how-to-animate-scroll-in-jquery/
     $('html, body').animate({
         scrollTop: 0
     }, 500);
 }
 
 function setFrench() {
-    //Set the language buttons
+    //Set the language and language buttons
     localStorage.setItem("en","false");
     $("#en").attr("class","col-2 btn-dark btn-sm mx-2");
     $("#fr").attr("class","col-2 btn-light btn-sm mx-2");
 
-    //Translate the required text
+    //Translate the required banner text
     $("#subtitle").text(sub_title_fr);
 
+    //Translate the required Home Page text
     $("#intro").text(intro_fr);
     $("#all_about_me").text(all_about_me_fr);
     $("#tutoring_intro").text(tutoring_intro_fr);
     $("#why_i_tutor").text(why_i_tutor_fr);
 
+    //Translate the required Tutoring Page text
     $("#tutoring").text(tutoring_fr);
     $("#display_warning").text(display_warning_fr);
+    $('#testimonial1').text(testimonial1_fr);
+    $('#testimonial2').text(testimonial2_fr);
 
+    //Translate the required Personal Projects Page text
     $("#personal_projects").text(personal_projects_fr);
     $("#research_interests").text(research_interests_fr);
 
+    //Translate the required Resources Page text
     $("#resources").text(resources_fr);
     $("#resources_description").text(resources_description_fr);
     $(".download").text(download_fr);
 
     //Move to top
-    // Derived from: https://howchoo.com/javascript/how-to-animate-scroll-in-jquery/
     $('html, body').animate({
         scrollTop: 0
     }, 500);
