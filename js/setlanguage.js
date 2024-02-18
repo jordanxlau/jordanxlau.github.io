@@ -8,6 +8,11 @@ var intro_fr = "Je suis actuellement en deuxième année en Informatique à l'Un
 var my_interests = "My interests include swimming, films, and languages. In high school, I was actively involved in swim teams, and drama productions. Actually, I still swim - with the uOttawa Triathlon club! I'm certified in  the Principles of Healthy Child Development. I am also proud to have been awarded twice the Merit Award Bursary and Canadian Hearing Services National Scholarship. I have always been an avid learner, so I now enjoy sharing my knowledge with younger students to help them succeed as well.";
 var my_interests_fr = "J'aime bien nager et je m'intéresse aussi aux films et aux langages. Au lycée, j'étais membre d'une équipe de natation et j'ai joué aux productions de drame. En fait, je nage encore avec le « uOttawa Triathlon club » ! Je suis certifié aux premiers secours et aux « Principles of Healthy Child Development ». Je suis fier d'avoir reçu aussi deux fois la bourse « Merit Award Bursary » et La Bourse d'Études des SCO. J'ai toujours aimé apprendre. Maintenant, j'aime partager cette connaissance avec mes élèves afin de les aider aussi reussir.";
 
+var tutoring = "Tutoring";
+var tutoring_fr = "J'enseigne...";
+var display_warning = "NOTICE: This page may not display properly on mobile.";
+var display_warning_fr = "ATTENTION: Cette page-web peut s'afficher incorrectement sur les mobiles.";
+
 var personal_projects = "Personal Projects";
 var personal_projects_fr = "Projets Personnels";
 var research_interests = "I'm currently studying computer science at the University of Ottawa with a minor in linguistics. My research interests include computational linguistics, natural language processing, machine translation,  autonomous driving, computer vision and pure linguistics.";
@@ -32,8 +37,8 @@ $(function(){
 
 function setEnglish() {
     //Set the language buttons
-    $("#en").attr("class","col-2 btn btn-outline-light mx-2");
-    $("#fr").attr("class","col-2 btn btn-outline-dark text-light mx-2");
+    $("#en").attr("class","col-2 btn btn-light mx-2");
+    $("#fr").attr("class","col-2 btn btn-dark mx-2");
 
     //Translate the required text
     $("#subtitle").text(sub_title);
@@ -41,6 +46,9 @@ function setEnglish() {
     $("#all_about_me").text(all_about_me);
     $("#intro").text(intro);
     $("#my_interests").text(my_interests);
+
+    $("#tutoring").text(tutoring);
+    $("#display_warning").text(display_warning);
     
     $("#personal_projects").text(personal_projects);
     $("#research_interests").text(research_interests);
@@ -57,8 +65,8 @@ function setEnglish() {
 
 function setFrench() {
     //Set the language buttons
-    $("#en").attr("class","col-2 btn btn-outline-dark text-light btn-sm mx-2");
-    $("#fr").attr("class","col-2 btn btn-outline-light btn-sm mx-2");
+    $("#en").attr("class","col-2 btn-dark btn-sm mx-2");
+    $("#fr").attr("class","col-2 btn-light btn-sm mx-2");
 
     //Translate the required text
     $("#subtitle").text(sub_title_fr);
@@ -66,6 +74,9 @@ function setFrench() {
     $("#intro").text(intro_fr);
     $("#all_about_me").text(all_about_me_fr);
     $("#my_interests").text(my_interests_fr);
+
+    $("#tutoring").text(tutoring_fr);
+    $("#display_warning").text(display_warning_fr);
 
     $("#personal_projects").text(personal_projects_fr);
     $("#research_interests").text(research_interests_fr);
