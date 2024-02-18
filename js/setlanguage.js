@@ -84,7 +84,7 @@ function setEnglish() {
     //Move to top
     $('html, body').animate({
         scrollTop: 0
-    }, 500);
+    }, 0);
 }
 
 function setFrench() {
@@ -120,5 +120,5 @@ function setFrench() {
     //Move to top
     $('html, body').animate({
         scrollTop: 0
-    }, 500);
+    }, 0);
 }
