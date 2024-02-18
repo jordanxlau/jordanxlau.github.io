@@ -21,8 +21,8 @@ var testimonial2_fr = "Jordan est un étudiant enthousiaste qui s'appliquera à 
 
 var personal_projects = "Personal Projects";
 var personal_projects_fr = "Projets Personnels";
-var research_interests = "I'm currently studying computer science at the University of Ottawa with a minor in linguistics. My research interests include computational linguistics, natural language processing, machine translation,  autonomous driving, computer vision and pure linguistics.";
-var research_interests_fr = "J'étude actuellement l'informatique à l'Université d'Ottawa avec mineure en linguistique. Je m'interesse en linguistique computationelle, au traitement du langage naturel, en traduction automatique,  en conduite autonome, en traitement d'images et en linguistique théorique.";
+var research_interests = "My research/work interests include computational linguistics, natural language processing, machine translation,  autonomous driving, computer vision and pure linguistics.";
+var research_interests_fr = "Je m'interesse en linguistique computationelle, au traitement du langage naturel, en traduction automatique,  en conduite autonome, en traitement d'images et en linguistique théorique.";
 
 var resources = "Resources";
 var resources_fr = "Ressources";
