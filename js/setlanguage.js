@@ -28,25 +28,28 @@ var download = "Download";
 var download_fr = "Téléchargez (en anglais)"
 
 $(function(){
-    if(localStorage.getItem("en") == "true"){
-        $(document).ready(setEnglish);
-    } else {
-        $(document).ready(setFrench);
-    }
+    $(document).ready(checkLanguage);
 });
 
 $(function(){
     $("#en").click(setEnglish);
-    localStorage.setItem("en","true");
 });
 
 $(function(){
     $("#fr").click(setFrench);
-    localStorage.setItem("en","false");
 });
+
+function checkLanguage(){
+    if(localStorage.getItem("en") == "true"){
+        setEnglish();
+    } else {
+        setFrench();
+    }
+}
 
 function setEnglish() {
     //Set the language buttons
+    localStorage.setItem("en","true");
     $("#en").attr("class","col-2 btn btn-light mx-2");
     $("#fr").attr("class","col-2 btn btn-dark mx-2");
 
@@ -77,6 +80,7 @@ function setEnglish() {
 
 function setFrench() {
     //Set the language buttons
+    localStorage.setItem("en","false");
     $("#en").attr("class","col-2 btn-dark btn-sm mx-2");
     $("#fr").attr("class","col-2 btn-light btn-sm mx-2");
 
