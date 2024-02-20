@@ -4,11 +4,13 @@ var sub_title_fr = "Étudiant bilingue - Tuteur - Développeur de logiciels";
 var all_about_me = "Who I Am";
 var all_about_me_fr = "Qui Suis-Je?";
 var intro = "I'm in my 3rd year of Computer Science (with a minor in Linguistics) at uOttawa. Last fall, I worked as a software developer with the Government of Canada. I am a Dean's Honour List student. I am also proud to have been awarded the Merit Award Bursary and Canadian Hearing Services National Scholarship. My interests include swimming, rock climbing, and languages."
-var intro_fr = "Je suis en 3ème année en Informatique à uOttawa, avec une mineure en Linguistique. Cet automone, j'étais développeur de logiciels avec le Gouvernement Fédérale. Je suis membre des palmarès du doyen. Je suis fier d'avoir reçu aussi la bourse « Merit Award Bursary » et La Bourse d'Études des SCO. J'aime bien nager et je m'intéresse aussi en escalade et aux langages."
+var intro_fr = "Je suis en 3ème année en Informatique à uOttawa, avec une mineure en Linguistique. Cet automne, j'étais développeur de logiciels avec le Gouvernement Fédérale. Je suis membre des palmarès du doyen. Je suis fier d'avoir reçu aussi la bourse « Merit Award Bursary » et La Bourse d'Études des SCO. J'aime bien nager et je m'intéresse aussi en escalade et aux langages."
 var why_i_tutor = "Why I Tutor";
 var why_i_tutor_fr = "Pourquoi suis-je un tuteur?";
-var tutoring_intro = "I've tutored for almost 5 years and tutored everything from 2nd-grade French Immersion to Calculus and Vectors. I am patient and always adapt my sessions to every tutee's individual needs. I'm certified in the Principles of Healthy Child Development. I have always been an avid learner, so I now enjoy sharing my knowledge with younger students to help them succeed as well.";
-var tutoring_intro_fr = "J'ai plus que 4 ans d'expérience avec les élèves d'élémentaire jusqu'au lycée et de l'immersione française à l'écriture au calcul. Je suis patient et j'adapte mes tutoriels pour quelconque élève. Je suis certifié aux « Principles of Healthy Child Development ». J'ai toujours aimé apprendre, et maintenant, j'aime partager cette connaissance avec mes élèves afin de les aider aussi reussir.";
+var tutoring_intro = "In over 4 years I have tutored everything from 2nd-grade French Immersion to Calculus and Vectors. I have always been an avid learner, so I now enjoy sharing my knowledge with younger students to help them succeed as well.";
+var tutoring_intro_fr = "Dans plus que 4 ans, j'ai travaillé avec les élèves d'élémentaire jusqu'au lycée et de l'immersione française à l'écriture au calcul. J'ai toujours aimé apprendre, et maintenant, j'aime partager cette connaissance avec mes élèves afin de les aider aussi reussir.";
+var tutoring_explanation = "Over 4 years of tutoring experience.\nSessions adapted to your individual needs.\nA tutor certified in the Principles of Healthy Child Development.\nEmail me to book a FREE consultation today!";
+var tutoring_explanation_fr = "Plus que 4 ans d'expérience.\nTutoriels adaptés pour n'importe quel élève. Un tuteur certifié aux « Principles of Healthy Child Development ».\nM'envoyez un courriel aujoud'hui pour une consultation GRATUTIE.";
 
 var tutoring = "Tutoring";
 var tutoring_fr = "J'enseigne...";
@@ -44,14 +46,14 @@ $(function(){
 });
 
 function checkLanguage(){
-    if(localStorage.getItem("en") == "true"){
-        localStorage.setItem("en","false");
-        $("#lang").text("EN");
+    if(localStorage.getItem("en") == "false"){
         setEnglish();
-    } else {
         localStorage.setItem("en","true");
         $("#lang").text("FR");
+    } else {
         setFrench();
+        localStorage.setItem("en","false");
+        $("#lang").text("FR");
     }
 }
 
@@ -67,6 +69,7 @@ function setEnglish() {
 
     //Translate the required Tutoring Page text
     $("#tutoring").text(tutoring);
+    $("#tutoring_explanation").text(tutoring_explanation);
     $("#display_warning").text(display_warning);
     $('#testimonial1').text(testimonial1);
     $('#testimonial2').text(testimonial2);
@@ -98,6 +101,7 @@ function setFrench() {
 
     //Translate the required Tutoring Page text
     $("#tutoring").text(tutoring_fr);
+    $("#tutoring_explanation").text(tutoring_explanation_fr);
     $("#display_warning").text(display_warning_fr);
     $('#testimonial1').text(testimonial1_fr);
     $('#testimonial2').text(testimonial2_fr);
