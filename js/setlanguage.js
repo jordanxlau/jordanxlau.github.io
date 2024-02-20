@@ -1,7 +1,7 @@
 var sub_title = "Computer Scientist - Tutor - Bilingual";
 var sub_title_fr = "Informaticien - Tuteur - Bilingue";
 
-var all_about_me = "Who Am I?";
+var all_about_me = "";
 var all_about_me_fr = "Qui Suis-Je?";
 var intro = "I'm in my 3rd year of Computer Science (with a minor in Linguistics) at uOttawa. Last fall, I worked as a software developer with the Government of Canada. I am a Dean's Honour List student and am proud to have been awarded the Merit Award Bursary and Canadian Hearing Services National Scholarship. My interests include swimming, rock climbing, and languages."
 var intro_fr = "Je suis en 3ième année d'Informatique à uOttawa avec une mineure en Linguistique. Cet automne, j'ai occupé un poste de développeur de logiciels pour le Gouvernement Fédérale. Je suis membre des palmarès du doyen et fier d'avoir reçu la bourse « Merit Award Bursary » ainsi que La Bourse d'Études des SCO. Je pratique la natation et je m'intéresse aussi à l'escalade et aux langues."
