@@ -1,3 +1,4 @@
+//Accordion animations
 $(function(){
     $("#headerOne").click(function(){
         if ($("#collapseOne").attr("class").includes("show")){
@@ -27,3 +28,13 @@ $(function(){
         }
     })
 });
+
+//Dropdown Animation
+// $(function(){
+//     $("#dropdown").click(function(){
+//         $(".dropdown-content").attr("display","block");
+//     }, function(){})
+// });
+// $(function () {
+//     $('[data-toggle="tooltip"]').tooltip()
+// })

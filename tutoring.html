@@ -11,7 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>   
     <script src="js/setlanguage.js"></script>
     <script src="js/iconlinks.js"></script>
-    <script src="js/collapseaccordion.js"></script>
+    <script src="js/animations.js"></script>
 </head>
 <body>
     <!-- Banner -->
@@ -36,21 +36,12 @@
         <a class="nav-link px-3" href="personalprojects.html">Personal Projects</a>
     </nav>
 
-    <!-- Alert -->
-    <!-- Derived from: https://www.w3schools.com/bootstrap4/bootstrap_alerts.asp -->
-    <div id="alert" class="container-md p-0 my-3">
-        <div class="alert alert-warning alert-dismissible text-left">
-            <button type="button" class="close" data-dismiss="alert">&times;</button>
-            <a id = "display_warning"></a>
-        </div>
-    </div>
-
     <!-- Main Content -->
     <div class = "container-fluid p-3 text-white text-left">
         <h2 id = "tutoring"></h2>
         <p id = "tutoring_explanation"></p>
     </div>
-    <div class = "container-fluid text-white text-left">
+    <div  id = "book" class = "container-fluid text-white text-left">
         <!-- First two Tutoring Options -->
         <div class = "row my-3">
             <div class = "col mx-3 bg-primary">
@@ -118,19 +109,21 @@
 
     <!-- Testimonials -->
     <!-- The carousel's base code was copied from https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works -->
-    <div class = "bg-white justify-content-center">
+    <div id = "testimonials" class = "bg-white justify-content-center">
         <div id="carousel" class="carousel slide carousel-slide">
             <div class="carousel-inner">
                 <div class="carousel-item text-center active">
                     <img src="images/quotes1.jpg" class="d-block mx-auto" height = "200px">
                     <div class="carousel-caption text-black">
                     <p id = "testimonial1"></p>
+                    <p>Raouf, client</p>
                     </div>
                 </div>
                 <div class="carousel-item text-center">
                     <img src="images/quotes1.jpg" class="d-block mx-auto" height = "200px">
                     <div class="carousel-caption text-black">
                     <p id = "testimonial2"></p>
+                    <p>Sonya</p>
                     </div>
                 </div>
             </div>
@@ -157,8 +150,8 @@
         </div>
     </div>
 
-    <!-- Main Content -->
-    <div class = "container-fluid p-3 text-white text-left">
+    <!-- Resources -->
+    <div id = "resources_container" class = "container-fluid p-3 text-white text-left">
         <h2 id = "resources"></h2>
         <a id = "resources_description"></a>
     </div>

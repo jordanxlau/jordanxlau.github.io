@@ -1,5 +1,5 @@
-var sub_title = "Bilingual Student - Tutor - Computer Programmer";
-var sub_title_fr = "Étudiant bilingue - Tuteur - Développeur de logiciels";
+var sub_title = "Computer Scientist - Tutor - Bilingual";
+var sub_title_fr = "Informaticien - Tuteur - Bilingue";
 
 var all_about_me = "Who Am I?";
 var all_about_me_fr = "Qui Suis-Je?";
@@ -28,10 +28,10 @@ var coding_for_all_ages = "Coding for All Ages";
 var coding_for_all_ages_fr = "Programmation (Lycée et Élémentaire)"
 var elementary_school_help = "Elementary School Help";
 var elementary_school_help_fr = "Aide Générale (Élémentaire)";
-var testimonial1 = "In Jordan, I not only found an exceptional tutor but also a role model and mentor for my son. I saw continual improvement of my son's command of the subjects, and grades. I would highly recommend Jordan not only for his academic knowledge, but his teaching style, which delivers results. - Raouf, client";
-var testimonial2 = "Jordan is an enthusiastic student who will apply himself to all worthy endeavours with vigor. He is largely recognized as the most genuinely nice student at Leaside. When tasked with a challenge, he always goes above and beyond and assumes a leadership role to help bring his team to greatness. - Sonya, coach";
-var testimonial1_fr = "Dans Jordan, j'ai trouvé un tuteur exceptionel, mais aussi un modèle et mentor pour mon fils. J'ai vu une amélioration continuelle dans la maîtrise de mon fils de ses sujets et dans ses notes. Je recommanderais Jordan fortement non seulement pour son connaisance academique, mais pour sa style d'enseignement, qui donne des résultats. - Raouf, client, (traduit de l'anglais)";
-var testimonial2_fr = "Jordan est un étudiant enthousiaste qui s'appliquera à tous les efforts dignes avec vigeur. Il est largement vu comme l'étudiant le plus sincèrement gentil à Leaside. Quand chargé d'un défi, il va toujours au-delà des attentes et il aide a mener son équipe à la grandeur. - Sonya, entraîneuse (traduit de l'anglais)";
+var testimonial1 = "In Jordan, I not only found an exceptional tutor but also a role model and mentor for my son. I saw continual improvement of my son's command of the subjects, and grades. I would highly recommend Jordan not only for his academic knowledge, but his teaching style, which delivers results.";
+var testimonial2 = "Jordan is an enthusiastic student who will apply himself to all worthy endeavours with vigor. He is largely recognized as the most genuinely nice student at Leaside. When tasked with a challenge, he always goes above and beyond and assumes a leadership role to help bring his team to greatness.";
+var testimonial1_fr = "Dans Jordan, j'ai trouvé un tuteur exceptionel, mais aussi un modèle et mentor pour mon fils. J'ai vu une amélioration continuelle dans la maîtrise de mon fils de ses sujets et dans ses notes. Je recommanderais Jordan fortement non seulement pour son connaisance academique, mais pour sa style d'enseignement, qui donne des résultats (traduit de l'anglais).";
+var testimonial2_fr = "Jordan est un étudiant enthousiaste qui s'appliquera à tous les efforts dignes avec vigeur. Il est largement vu comme l'étudiant le plus sincèrement gentil à Leaside. Quand chargé d'un défi, il va toujours au-delà des attentes et il aide a mener son équipe à la grandeur (traduit de l'anglais).";
 
 var personal_projects = "Personal Projects";
 var personal_projects_fr = "Projets Personnels";
