@@ -14,7 +14,7 @@ var why_i_tutor_fr = "Pourquoi Je Suis un Tuteur";
 var tutoring_intro = "In over 4 years I have tutored everything from 2nd-grade French Immersion to Calculus and Vectors. I have always been an avid learner, so I now enjoy sharing my knowledge with younger students to help them succeed as well.";
 var tutoring_intro_fr = "Dans plus que 4 ans, j'ai enseigné les élèves d'élémentaire jusqu'au lycée, en immersione française au calcul. Ayant toujours aimé apprendre, maintenant, j'aime partager mes connaissances avec mes élèves afin de les aider réussir.";
 var tutoring_explanation = "Over 4 years of tutoring experience.\nSessions adapted to your individual needs.\nA tutor certified in the Principles of Healthy Child Development.\nEmail me to book a FREE consultation today!";
-var tutoring_explanation_fr = "Plus que 4 ans d'expérience.\nTutoriels adaptés pour n'importe quel élève. Un tuteur avec un certificat en « Principles of Healthy Child Development ».\nM'envoyez un courriel aujoud'hui pour une consultation GRATUTIE.";
+var tutoring_explanation_fr = "Plus que 4 ans d'expérience.\nTutoriels adaptés pour n'importe quel élève. Un tuteur avec un certificat en « Principles of Healthy Child Development ».\nEnvoyez-moi un courriel aujourd'hui pour une consultation GRATUITE.";
 
 var tutoring = "Tutoring";
 var tutoring_fr = "J'enseigne...";
