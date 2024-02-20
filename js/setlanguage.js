@@ -1,5 +1,5 @@
-var sub_title = "Student - Tutor - Computer Programmer";
-var sub_title_fr = "Étudiant - Tuteur - Développeur de logiciels";
+var sub_title = "Bilingual Student - Tutor - Computer Programmer";
+var sub_title_fr = "Étudiant bilingue - Tuteur - Développeur de logiciels";
 
 var all_about_me = "Who I Am";
 var all_about_me_fr = "Qui Suis-Je?";
@@ -36,27 +36,26 @@ $(function(){
 });
 
 $(function(){
-    $("#en").click(setEnglish);
+    $("#lang").click(checkLanguage);
 });
 
 $(function(){
-    $("#fr").click(setFrench);
+    $(document).ready(checkLanguage);
 });
 
 function checkLanguage(){
     if(localStorage.getItem("en") == "true"){
+        localStorage.setItem("en","false");
+        $("#lang").text("EN");
         setEnglish();
     } else {
+        localStorage.setItem("en","true");
+        $("#lang").text("FR");
         setFrench();
     }
 }
 
 function setEnglish() {
-    //Set the language and language buttons
-    localStorage.setItem("en","true");
-    $("#en").attr("class","col-2 btn btn-light mx-2");
-    $("#fr").attr("class","col-2 btn btn-dark mx-2");
-
     //Translate the required banner text
     $("#subtitle").text(sub_title);
 
@@ -88,11 +87,6 @@ function setEnglish() {
 }
 
 function setFrench() {
-    //Set the language and language buttons
-    localStorage.setItem("en","false");
-    $("#en").attr("class","col-2 btn-dark btn-sm mx-2");
-    $("#fr").attr("class","col-2 btn-light btn-sm mx-2");
-
     //Translate the required banner text
     $("#subtitle").text(sub_title_fr);
 
