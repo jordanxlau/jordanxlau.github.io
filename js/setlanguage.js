@@ -50,10 +50,10 @@ $(function(){
 });
 
 $(function(){
-    $("#lang").click(checkLanguage);
+    $("#lang").click(resetLanguage);
 });
 
-function checkLanguage(){
+function resetLanguage(){
     if(localStorage.getItem("en") == "false"){
         setEnglish();
         localStorage.setItem("en","true");
@@ -62,6 +62,16 @@ function checkLanguage(){
         setFrench();
         localStorage.setItem("en","false");
         $("#lang").text("EN");
+    }
+}
+
+function checkLanguage(){
+    if(localStorage.getItem("en") == "false"){
+        $("#lang").text("EN");
+        setFrench();
+    } else {
+        $("#lang").text("FR");
+        setEnglish();
     }
 }
 
@@ -87,15 +97,13 @@ function setEnglish() {
     $("#math").text(high_school_math);
     $('#testimonial1').text(testimonial1);
     $('#testimonial2').text(testimonial2);
+    $("#resources").text(resources);
+    $("#resources_description").text(resources_description);
+    $(".download").text(download);
     
     //Translate the required Personal Projects Page text
     $("#personal_projects").text(personal_projects);
     $("#research_interests").text(research_interests);
-
-    //Translate the required Resources Page text
-    $("#resources").text(resources);
-    $("#resources_description").text(resources_description);
-    $(".download").text(download);
 
     //Move to top
     $('html, body').animate({
@@ -125,15 +133,13 @@ function setFrench() {
     $("#math").text(high_school_math_fr);
     $('#testimonial1').text(testimonial1_fr);
     $('#testimonial2').text(testimonial2_fr);
+    $("#resources").text(resources_fr);
+    $("#resources_description").text(resources_description_fr);
+    $(".download").text(download_fr);
 
     //Translate the required Personal Projects Page text
     $("#personal_projects").text(personal_projects_fr);
     $("#research_interests").text(research_interests_fr);
-
-    //Translate the required Resources Page text
-    $("#resources").text(resources_fr);
-    $("#resources_description").text(resources_description_fr);
-    $(".download").text(download_fr);
 
     //Move to top
     $('html, body').animate({
