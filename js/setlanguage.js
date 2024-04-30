@@ -29,9 +29,9 @@ var coding_for_all_ages_fr = "Programmation (Lycée et Élémentaire)"
 var elementary_school_help = "Elementary School Help";
 var elementary_school_help_fr = "Aide Générale (Élémentaire)";
 var testimonial1 = "In Jordan, I not only found an exceptional tutor but also a role model and mentor for my son. I saw continual improvement of my son's command of the subjects, and grades. I would highly recommend Jordan not only for his academic knowledge, but his teaching style, which delivers results.";
-var testimonial2 = "Jordan is an enthusiastic student who will apply himself to all worthy endeavours with vigor. He is largely recognized as the most genuinely nice student at Leaside. When tasked with a challenge, he always goes above and beyond and assumes a leadership role to help bring his team to greatness.";
+var testimonial2 = "Jordan has been a very engaging and responsive tutor for my middle schooler. He has supported him to make ongoing progress during their one-on-one virtual sessions. I highly recommend reaching out if you are looking for remedial support or enrichment in the areas of Math, French and Writing.";
 var testimonial1_fr = "Dans Jordan, j'ai trouvé un tuteur exceptionel, mais aussi un modèle et mentor pour mon fils. J'ai vu une amélioration continuelle dans la maîtrise de mon fils de ses sujets et dans ses notes. Je recommanderais Jordan fortement non seulement pour son connaisance academique, mais pour sa style d'enseignement, qui donne des résultats (traduit de l'anglais).";
-var testimonial2_fr = "Jordan est un étudiant enthousiaste qui s'appliquera à tous les efforts dignes avec vigeur. Il est largement vu comme l'étudiant le plus sincèrement gentil à Leaside. Quand chargé d'un défi, il va toujours au-delà des attentes et il aide a mener son équipe à la grandeur (traduit de l'anglais).";
+var testimonial2_fr = "Jordan est un tuteur captivant et sensible à mon enfant en école intermédiaire. Il lui aide à progresser pendant leur séances virtuels en tête à tête. Je recommanderais contacter Jordan si vous cherchez le soutien correctif ou l'enrichissement dans en maths, en FLS et à l'ecriture (traduit de l'anglais).";
 
 var personal_projects = "Personal Projects";
 var personal_projects_fr = "Projets Personnels";
