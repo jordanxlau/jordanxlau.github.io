@@ -3,18 +3,18 @@ var sub_title_fr = "Informaticien - Tuteur - Bilingue";
 
 var all_about_me = "Who Am I?";
 var all_about_me_fr = "Qui Suis-Je?";
-var intro = "I'm in my 3rd year of Computer Science (with a minor in Linguistics) at uOttawa. Last fall, I worked as a software developer with the Government of Canada. I am a Dean's Honour List student and am proud to have been awarded the Merit Award Bursary and Canadian Hearing Services National Scholarship. My interests include swimming, rock climbing, and languages."
-var intro_fr = "Je suis en 3ième année d'Informatique à uOttawa avec une mineure en Linguistique. Cet automne, j'ai occupé un poste de développeur de logiciels pour le Gouvernement Fédérale. Je suis membre des palmarès du doyen et fier d'avoir reçu la bourse « Merit Award Bursary » ainsi que La Bourse d'Études des SCO. Je pratique la natation et je m'intéresse aussi à l'escalade et aux langues."
+var intro = "I'm in my 4th year of Computer Science (with a minor in Linguistics) at uOttawa. I have done two internships as a software developer with the Government of Canada. I am a Dean's Honour List student and am proud to have been awarded the Merit Award Bursary and Canadian Hearing Services National Scholarship. My interests include swimming, karate, and languages."
+var intro_fr = "Je suis en 4ième année d'Informatique à uOttawa avec une mineure en Linguistique. J'étais deux fois un stagiaire en développment de logiciels pour le Gouvernement Fédérale. Je suis membre des palmarès du doyen et fier d'avoir reçu la bourse « Merit Award Bursary » ainsi que La Bourse d'Études des SCO. Je pratique la natation et le karaté, et je m'intéresse aussi aux langues."
 var this_website = "This Website";
 var this_website_fr = "Ce Site";
 var this_website_explanation = "This website showcases me as a student, programmer and tutor! I've written the whole site myself with the help of Bootstrap. The translation was done by me and is activated with JQuery. It is hosted with GitHub Pages.";
 var this_website_explanation_fr = "Ce site me présente comme étudiant, tuteur et développeur de logiciels! Je l'ai fait moi-même avec Bootstrap. La traduction est la mienne aussi, est elle est activée avec JQuery. Le site est publié sur GitHub Pages.";
 var why_i_tutor = "Why I Tutor";
 var why_i_tutor_fr = "Pourquoi Je Suis un Tuteur";
-var tutoring_intro = "In over 4 years I have tutored everything from 2nd-grade French Immersion to Calculus and Vectors. I have always been an avid learner, so I now enjoy sharing my knowledge with younger students to help them succeed as well.";
-var tutoring_intro_fr = "Dans plus que 4 ans, j'ai enseigné les élèves d'élémentaire jusqu'au lycée, en immersione française au calcul. Ayant toujours aimé apprendre, maintenant, j'aime partager mes connaissances avec mes élèves afin de les aider réussir.";
-var tutoring_explanation = "Over 4 years of tutoring experience.\nSessions adapted to your individual needs.\nA tutor certified in the Principles of Healthy Child Development.\nEmail me to book a FREE consultation today!";
-var tutoring_explanation_fr = "Plus que 4 ans d'expérience.\nTutoriels adaptés pour n'importe quel élève. Un tuteur avec un certificat en « Principles of Healthy Child Development ».\nEnvoyez-moi un courriel aujourd'hui pour une consultation GRATUITE.";
+var tutoring_intro = "In over 5 years, I have tutored everything from 2nd-grade French Immersion to Calculus and Vectors. I have always been an avid learner, so I now enjoy sharing my knowledge with younger students to help them succeed as well.";
+var tutoring_intro_fr = "Dans plus que 5 ans, j'ai enseigné les élèves d'élémentaire jusqu'au lycée, en immersione française au calcul. Ayant toujours aimé apprendre, maintenant, j'aime partager mes connaissances avec mes élèves afin de les aider réussir.";
+var tutoring_explanation = "Over 5 years of tutoring experience.\nSessions adapted to your individual needs.\nA tutor certified in the Principles of Healthy Child Development.\nEmail me to book a FREE consultation today!";
+var tutoring_explanation_fr = "Plus que 5 ans d'expérience.\nTutoriels adaptés pour n'importe quel élève. Un tuteur avec un certificat en « Principles of Healthy Child Development ».\nEnvoyez-moi un courriel aujourd'hui pour une consultation GRATUITE.";
 
 var tutoring = "Tutoring";
 var tutoring_fr = "J'enseigne...";
