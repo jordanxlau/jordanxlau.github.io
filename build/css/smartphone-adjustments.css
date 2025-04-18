@@ -1,0 +1,33 @@
+/* Most devices */
+.pics{
+    height: 200px;
+    width: 200px;
+}
+
+body{
+    background-color: #6c757d;
+}
+
+/* Small Screens */
+@media only screen 
+and (max-width : 900px) {
+    #carousel{
+        font-size: 60%;
+    }
+
+    .image-fluid{
+        height: 0px;
+        width: 0px;
+    }
+
+    body{
+        background-color: #000D4D;
+    }
+
+    h3{
+        font-size: medium;
+        font-weight: 900;
+    }
+}
+
+/* from https://stackoverflow.com/questions/13847755/css-media-queries-for-screen-sizes */
