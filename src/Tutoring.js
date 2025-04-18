@@ -1,4 +1,37 @@
 function Tutoring({lang}) {
+    //Accordion animations
+    // function headerOne(){
+    //     if ($("#collapseOne").attr("class").includes("show")){
+    //         $("#collapseOne").attr("class", "accordion-collapse collapse");
+    //     } else{
+    //         $("#collapseOne").attr("class", "accordion-collapse collapse show");
+    //     }
+    // }
+    // function headerTwo(){
+    //     if ($("#collapseTwo").attr("class").includes("show")){
+    //         $("#collapseTwo").attr("class", "accordion-collapse collapse");
+    //     } else{
+    //         $("#collapseTwo").attr("class", "accordion-collapse collapse show");
+    //     }
+    // }
+    // function headerThree(){
+    //     if ($("#collapseThree").attr("class").includes("show")){
+    //         $("#collapseThree").attr("class", "accordion-collapse collapse");
+    //     } else{
+    //         $("#collapseThree").attr("class", "accordion-collapse collapse show");
+    //     }
+    // }
+
+    //Dropdown Animation
+    // $(function(){
+    //     $("#dropdown").click(function(){
+    //         $(".dropdown-content").attr("display","block");
+    //     }, function(){})
+    // });
+    // $(function () {
+    //     $('[data-toggle="tooltip"]').tooltip()
+    // })
+
     var english = lang === 'en';
 
     var tutoring_explanation = english ? "Over 5 years of tutoring experience.\nSessions adapted to your individual needs.\nA tutor certified in the Principles of Healthy Child Development.\nEmail me to book a FREE consultation today!"
@@ -142,8 +175,8 @@ function Tutoring({lang}) {
             {/* Accordion from https://getbootstrap.com/docs/5.3/components/accordion/ */}
             <div class="accordion p-3">
                 <div class="accordion-item">
-                <h2 id = "headerOne" class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     Exponents Practice
                     </button>
                 </h2>
@@ -157,7 +190,7 @@ function Tutoring({lang}) {
                 </div>
                 </div>
                 <div class="accordion-item">
-                <h2 id = "headerTwo" class="accordion-header">
+                <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     Linear Equations Practice
                     </button>
@@ -172,7 +205,7 @@ function Tutoring({lang}) {
                 </div>
                 </div>
                 <div class="accordion-item">
-                <h2 id = "headerThree" class="accordion-header">
+                <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     The Replacement Test
                     </button>
