@@ -10,7 +10,7 @@ import PersonalProjects from './PersonalProjects';
 import Navbar from './Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const lang = 'en'; // Sets the language
+var lang = 'en'; // Sets the language
 root.render(
   <React.StrictMode>
     <div>
@@ -18,9 +18,7 @@ root.render(
         <Banner lang={lang} />
         <Navbar lang={lang} />
         <Routes>
-          {/* 👇 Redirect from "/" to "/en" */}
-          <Route path="/" element={<Navigate to="/en" replace />} />
-
+          <Route path="/" element={<Navigate to={"/"+lang} replace />} />
           <Route path={"/"+lang} element={<App lang={lang} />} />
           <Route path={"/"+lang+"/tutoring"} element={<Tutoring lang={lang} />} />
           <Route path={"/"+lang+"/personalprojects"} element={<PersonalProjects lang={lang} />} />

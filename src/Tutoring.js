@@ -37,7 +37,7 @@ function Tutoring({lang}) {
                                     <button class = "btn btn-outline-light btn-sm" data-toggle="modal" data-target="#booking">Request</button>
                                 </div>
                                 <div class = "col-sm-6">
-                                    <img src = "images/elementary.jpg" class = "pics image-fluid" alt = ""></img>
+                                    <img src = "../images/elementary.jpg" class = "pics image-fluid" alt = ""></img>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ function Tutoring({lang}) {
                                     <button class = "btn btn-outline-light btn-sm" data-toggle="modal" data-target="#booking">Request</button>
                                 </div>
                                 <div class = "col-sm-6">
-                                    <img src = "images/coding.jpg" class = "pics image-fluid" alt = ""></img>
+                                    <img src = "../images/coding.jpg" class = "pics image-fluid" alt = ""></img>
                                 </div>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ function Tutoring({lang}) {
                                     <button class = "btn btn-outline-light btn-sm" data-toggle="modal" data-target="#booking">Request</button>
                                 </div>
                                 <div class = "col-sm-6">
-                                    <img src = "images/french.jpg" class = "pics image-fluid" alt = ""></img>
+                                    <img src = "../images/french.jpg" class = "pics image-fluid" alt = ""></img>
                                 </div>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ function Tutoring({lang}) {
                                     <button class = "btn btn-outline-light btn-sm" data-toggle="modal" data-target="#booking">Request</button>
                                 </div>
                                 <div class = "col-sm-6">
-                                    <img src = "images/math.jpg" class = "pics image-fluid" alt = ""></img>
+                                    <img src = "../images/math.jpg" class = "pics image-fluid" alt = ""></img>
                                 </div>
                             </div>
                         </div>
@@ -96,14 +96,14 @@ function Tutoring({lang}) {
                 <div id="carousel" class="carousel slide carousel-slide">
                     <div class="carousel-inner">
                         <div class="carousel-item text-center active">
-                            <img src="images/quotes1.jpg" class="d-block mx-auto" height = "200px" alt = ""></img>
+                            <img src="../images/quotes1.jpg" class="d-block mx-auto" height = "200px" alt = ""></img>
                             <div class="carousel-caption text-black">
                             <p>{testimonial1}</p>
                             <p>Raouf, client</p>
                             </div>
                         </div>
                         <div class="carousel-item text-center">
-                            <img src="images/quotes1.jpg" class="d-block mx-auto" height = "200px" alt = ""></img>
+                            <img src="../images/quotes1.jpg" class="d-block mx-auto" height = "200px" alt = ""></img>
                             <div class="carousel-caption text-black">
                             <p>{testimonial2}</p>
                             <p>Jackie, client</p>
