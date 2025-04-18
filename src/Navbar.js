@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar({lang}) {
 
+    // Get path (in order to bold the selected path)
     const location = useLocation();
     const path = location.pathname;
 
