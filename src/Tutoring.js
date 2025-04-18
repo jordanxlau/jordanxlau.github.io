@@ -1,36 +1,4 @@
 function Tutoring({lang}) {
-    //Accordion animations
-    // function headerOne(){
-    //     if ($("#collapseOne").attr("class").includes("show")){
-    //         $("#collapseOne").attr("class", "accordion-collapse collapse");
-    //     } else{
-    //         $("#collapseOne").attr("class", "accordion-collapse collapse show");
-    //     }
-    // }
-    // function headerTwo(){
-    //     if ($("#collapseTwo").attr("class").includes("show")){
-    //         $("#collapseTwo").attr("class", "accordion-collapse collapse");
-    //     } else{
-    //         $("#collapseTwo").attr("class", "accordion-collapse collapse show");
-    //     }
-    // }
-    // function headerThree(){
-    //     if ($("#collapseThree").attr("class").includes("show")){
-    //         $("#collapseThree").attr("class", "accordion-collapse collapse");
-    //     } else{
-    //         $("#collapseThree").attr("class", "accordion-collapse collapse show");
-    //     }
-    // }
-
-    //Dropdown Animation
-    // $(function(){
-    //     $("#dropdown").click(function(){
-    //         $(".dropdown-content").attr("display","block");
-    //     }, function(){})
-    // });
-    // $(function () {
-    //     $('[data-toggle="tooltip"]').tooltip()
-    // })
 
     var english = lang === 'en';
 
