@@ -2,8 +2,8 @@ function Tutoring() {
     return (
         <div>
             <div class = "container-fluid p-3 text-white text-left">
-                <h2 id = "tutoring"></h2>
-                <p id = "tutoring_explanation"></p>
+                <h2 id = "tutoring">tutoring</h2>
+                <p id = "tutoring_explanation">tutoring_explanation</p>
             </div>
             <div  id = "book" class = "container-fluid text-white text-left">
                 {/* First two Tutoring Options */}
@@ -18,7 +18,7 @@ function Tutoring() {
                                     <button class = "btn btn-outline-light btn-sm" data-toggle="modal" data-target="#booking">Request</button>
                                 </div>
                                 <div class = "col-sm-6">
-                                    <img src = "images/elementary.jpg" class = "pics image-fluid"></img>
+                                    <img src = "images/elementary.jpg" class = "pics image-fluid" alt = ""></img>
                                 </div>
                             </div>
                         </div>
@@ -28,11 +28,11 @@ function Tutoring() {
                             <div class = "row">
                                 <div class = "col-sm-6 p-3">
                                     <p>Grade 1 to 12 - $40/hr</p>
-                                    <h3 id="coding"></h3>
+                                    <h3 id="coding">coding</h3>
                                     <button class = "btn btn-outline-light btn-sm" data-toggle="modal" data-target="#booking">Request</button>
                                 </div>
                                 <div class = "col-sm-6">
-                                    <img src = "images/coding.jpg" class = "pics image-fluid"></img>
+                                    <img src = "images/coding.jpg" class = "pics image-fluid" alt = ""></img>
                                 </div>
                             </div>
                         </div>
@@ -45,11 +45,11 @@ function Tutoring() {
                             <div class = "row">
                                 <div class = "col-sm-6 p-3">
                                     <p>Grade 9 to 12 - $35/hr</p>
-                                    <h3 id = "french"></h3>
+                                    <h3 id = "french">french</h3>
                                     <button class = "btn btn-outline-light btn-sm" data-toggle="modal" data-target="#booking">Request</button>
                                 </div>
                                 <div class = "col-sm-6">
-                                    <img src = "images/french.jpg" class = "pics image-fluid"></img>
+                                    <img src = "images/french.jpg" class = "pics image-fluid" alt = ""></img>
                                 </div>
                             </div>
                         </div>
@@ -59,11 +59,11 @@ function Tutoring() {
                             <div class = "row">
                                 <div class = "col-sm-6 p-3">
                                     <p>Grade 9 to 12 - $40/hr</p>
-                                    <h3 id = "math"></h3>
+                                    <h3 id = "math">math</h3>
                                     <button class = "btn btn-outline-light btn-sm" data-toggle="modal" data-target="#booking">Request</button>
                                 </div>
                                 <div class = "col-sm-6">
-                                    <img src = "images/math.jpg" class = "pics image-fluid"></img>
+                                    <img src = "images/math.jpg" class = "pics image-fluid" alt = ""></img>
                                 </div>
                             </div>
                         </div>
@@ -77,16 +77,16 @@ function Tutoring() {
                 <div id="carousel" class="carousel slide carousel-slide">
                     <div class="carousel-inner">
                         <div class="carousel-item text-center active">
-                            <img src="images/quotes1.jpg" class="d-block mx-auto" height = "200px"></img>
+                            <img src="images/quotes1.jpg" class="d-block mx-auto" height = "200px" alt = ""></img>
                             <div class="carousel-caption text-black">
-                            <p id = "testimonial1"></p>
+                            <p id = "testimonial1">testimonial1</p>
                             <p>Raouf, client</p>
                             </div>
                         </div>
                         <div class="carousel-item text-center">
-                            <img src="images/quotes1.jpg" class="d-block mx-auto" height = "200px"></img>
+                            <img src="images/quotes1.jpg" class="d-block mx-auto" height = "200px" alt = ""></img>
                             <div class="carousel-caption text-black">
-                            <p id = "testimonial2"></p>
+                            <p id = "testimonial2">testimonial2</p>
                             <p>Jackie, client</p>
                             </div>
                         </div>
@@ -116,8 +116,8 @@ function Tutoring() {
 
             {/* Resources */}
             <div id = "resources_container" class = "container-fluid p-3 text-white text-left">
-                <h2 id = "resources"></h2>
-                <a id = "resources_description"></a>
+                <h2 id = "resources">resources</h2>
+                <p id = "resources_description">resources_description</p>
             </div>
 
             {/* Accordion from https://getbootstrap.com/docs/5.3/components/accordion/ */}
@@ -133,7 +133,7 @@ function Tutoring() {
                     <p>Grade 7 and up</p>
                     <p>Exponent problems covering basic exponentiation, exponentiation with negatives, the power of zero and fractional exponents.</p>
                     <br />
-                    <a class = "download border border-primary rounded-1 p-3" href = "downloadables/Exponents Practice.pdf" open></a>
+                    <a class = "download border border-primary rounded-1 p-3" href = "downloadables/Exponents Practice.pdf" open>download</a>
                     </div>
                 </div>
                 </div>
@@ -148,7 +148,7 @@ function Tutoring() {
                     <p>Grade 8</p>
                     <p>Linear equations with one variable.</p>
                     <br />
-                    <a class = "download border border-primary rounded-1 p-3" href = "downloadables/Linear Equations Practice.pdf" open></a>
+                    <a class = "download border border-primary rounded-1 p-3" href = "downloadables/Linear Equations Practice.pdf" open>download</a>
                     </div>
                 </div>
                 </div>
@@ -163,7 +163,7 @@ function Tutoring() {
                     <p>Grade 7 and up</p>
                     <p>Using the "replacement test" for determining the lexical category (ie. noun, verb, etc.) of a word.</p>
                     <br />
-                    <a class = "download border border-primary rounded-1 p-3" href = "downloadables/The Replacement Test.pdf" open></a>
+                    <a class = "download border border-primary rounded-1 p-3" href = "downloadables/The Replacement Test.pdf" open>download</a>
                     </div>
                 </div>
                 </div>

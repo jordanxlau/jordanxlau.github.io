@@ -11,7 +11,7 @@ function Banner() {
             </div>
             <div class = "row">
                 <div class = "col-12">
-                    <p id = "subtitle" style = {{marginLeft: 40}}></p>
+                    <p id = "subtitle" style = {{marginLeft: 40}}>subtitle</p>
                 </div>
             </div>
         </header>
