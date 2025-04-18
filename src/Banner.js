@@ -1,4 +1,8 @@
-function Banner() {
+function Banner({lang}) {
+    var english = lang === 'en';
+
+    var sub_title = english ? "Computer Scientist - Tutor - Bilingual" : "Informaticien - Tuteur - Bilingue";
+    
     return (
         <header class="p-3 text-white bg-primary">
             <div class = "row">
@@ -11,7 +15,7 @@ function Banner() {
             </div>
             <div class = "row">
                 <div class = "col-12">
-                    <p id = "subtitle" style = {{marginLeft: 40}}>subtitle</p>
+                    <p id = "subtitle" style = {{marginLeft: 40}}>{sub_title}</p>
                 </div>
             </div>
         </header>

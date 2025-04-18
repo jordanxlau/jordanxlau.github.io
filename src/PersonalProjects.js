@@ -1,8 +1,14 @@
-function PersonalProjects() {
+function PersonalProjects({lang}) {
+    var english = lang === 'en';
+    var personal_projects = english ? "Personal Projects" : "Projets Personnels";
+    var research_interests = english ? "My research/work interests include computational linguistics, natural language processing, machine translation,  autonomous driving, computer vision and pure linguistics."
+    : "Je m'interesse en linguistique computationelle, au traitement du langage naturel, en traduction automatique,  en conduite autonome, en traitement d'images et en linguistique théorique.";
+
+
     return (
         <div class = "container-fluid p-3 text-white text-left" style = {{backgroundImage: 'url("images/computer.jpg")', backgroundSize: 'cover'}}>
-            <h2 id = "personal_projects">personal_projects</h2>
-            <p id = "research_interests">research_interests</p>
+            <h2>{personal_projects}</h2>
+            <p>{research_interests}</p>
             
             <p>Programming Projects (available on GitHub, <a class = "text-white" href ="https://github.com/jordanxlau" open>@jordanxlau</a>):<br /><br />
             <a class = "text-white" href="https://github.com/jordanxlau/sign-language-detection" open>Hand Gesture Detection using Machine Learning, 2024.</a><br /><br />

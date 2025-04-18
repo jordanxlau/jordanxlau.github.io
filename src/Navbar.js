@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function Navbar({lang}) {
     return (
         <nav class = "navbar navbar-expand-lg p-3 bg-body-tertiary">
-            <a class="nav-link px-3" href="index.html"><Link to={"/"}>Home</Link></a>
-            <a id = "dropdown" class="nav-link px-3" href="tutoring.html"><Link to={"/tutoring"}>Tutoring</Link></a>
-            <a class="nav-link px-3" href="personalprojects.html"><Link to={"/personalprojects"}>Personal Projects</Link></a>
+            <a class="nav-link px-3" href="index.html"><Link to={"/"+lang}>Home</Link></a>
+            <a id = "dropdown" class="nav-link px-3" href="tutoring.html"><Link to={"/"+lang+"/tutoring"}>Tutoring</Link></a>
+            <a class="nav-link px-3" href="personalprojects.html"><Link to={"/"+lang+"/personalprojects"}>Personal Projects</Link></a>
         </nav>
     );
 }
