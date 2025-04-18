@@ -26,8 +26,8 @@ function App({lang}) {
                   <h3>{why_i_tutor}</h3>
                   <p>{tutoring_intro}</p>
                   <br />
-                  <a class = "btn btn-lg btn-outline-light" href = "downloadables/Jordan Lau Technical Resume.pdf" open>Technical Resume</a>
-                  <a class = "btn btn-lg btn-outline-light" href = "downloadables/Jordan Lau Teaching Resume.pdf" open>Teaching Resume</a>
+                  <a class = "btn btn-lg btn-outline-light" href = "downloadables/Jordan Lau Technical Resume.pdf" style={{margin: 3}} open>Technical Resume</a>
+                  <a class = "btn btn-lg btn-outline-light" href = "downloadables/Jordan Lau Teaching Resume.pdf" style={{margin: 3}} open>Teaching Resume</a>
               </div>
           </div>
       </div>
