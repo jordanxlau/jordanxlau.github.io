@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
+import { Routes, Route, HashRouter, Navigate } from "react-router-dom";
 import './index.css';
 import App from './App';
 import Banner from './Banner';
@@ -14,7 +14,7 @@ var lang = 'en'; // Sets the language
 root.render(
   <React.StrictMode>
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Banner lang={lang} />
         <Navbar lang={lang} />
         <Routes>
@@ -24,7 +24,7 @@ root.render(
           <Route path={"/"+lang+"/personalprojects"} element={<PersonalProjects lang={lang} />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   </React.StrictMode>
 );
