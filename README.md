@@ -7,14 +7,9 @@ npm start
 
 Make sure to develop code on  `source` branch. Then, merge with main and do the following.
 
-To build and deploy to https://jordanxlau.github.io:
+To build and deploy to https://jordanxlau.github.io (on a Powershell):
 ```
 npm run build
-npm run deploy
-```
-
-On a Powershell:
-```
 Copy-Item -Path build\* -Destination . -Recurse -Force
 ```
 
