@@ -1,8 +1,8 @@
 function PersonalProjects({lang}) {
     var english = lang === 'en';
     var personal_projects = english ? "Personal Projects" : "Projets Personnels";
-    var research_interests = english ? "My research/work interests include computational linguistics, natural language processing, machine translation,  autonomous driving, computer vision and pure linguistics."
-    : "Je m'interesse en linguistique computationelle, au traitement du langage naturel, en traduction automatique,  en conduite autonome, en traitement d'images et en linguistique théorique.";
+    var research_interests = english ? "My research/work interests include computational linguistics, natural language processing, machine translation, machine learning and pure linguistics."
+    : "Je m'interesse en linguistique computationelle, au traitement du langage naturel, en traduction automatique, en aprentissage en machine et en linguistique théorique.";
 
 
     return (
@@ -20,9 +20,9 @@ function PersonalProjects({lang}) {
                 <br /><br />
                 <a class = "text-white" href="https://github.com/CSI2132-G30/hotel" open><u>Hotel Management App, 2024</u></a>
                 <br /><br />
-                <a>This Website, 2024.</a>
+                <a>This Website, ongoing.</a>
                 <br /><br />
-                <a> Meme Classification using machine learning. 2024. </a>
+                <a> Meme Classification using Machine Learning, 2024. </a>
                 <br /><br />
                 <a> Object Detection with DBScan, 2022. </a>
             </p>
@@ -46,6 +46,8 @@ function PersonalProjects({lang}) {
                 <br /><br />
                 <a>Discussion of a paper on Syntax Graph CNNs for Sentiment Analysis, 2025.</a>
             </p>
+            <iframe class = "px-4" width="560" height="315" src="https://www.youtube.com/embed/BFIjmmwBlT4?si=pIGabR8P_4FSqyid" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p class = "px-4">In this video of the presentation, I am the third speaker.</p>
         </div>
     );
 }
