@@ -1,7 +1,7 @@
 function Banner({lang}) {
     var english = lang === 'en';
 
-    var sub_title = english ? "Computer Scientist - Tutor - Bilingual" : "Informaticien - Tuteur - Bilingue";
+    var sub_title = english ? "Computer Scientist - Linguist - Tutor" : "Informaticien - Linguiste - Tuteur";
     
     return (
         <header class="p-3 text-white bg-primary">
