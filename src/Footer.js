@@ -9,7 +9,7 @@ function Footer() {
             </p>
         </div>
         <div className = "row p-2" style = {{marginLeft: 40}}>
-            <p className = "col text-left"> Toronto | Ottawa | jordanxlau@yahoo.ca | &copy;2025 Jordan Lau </p>
+            <p className = "col text-left"> Toronto | Ottawa | jordanxlau@yahoo.ca | &copy;2026 Jordan Lau </p>
         </div>
       </footer>
     );
