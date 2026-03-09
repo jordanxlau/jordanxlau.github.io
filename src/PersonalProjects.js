@@ -1,8 +1,8 @@
 function PersonalProjects({lang}) {
     var english = lang === 'en';
     var personal_projects = english ? "Personal Projects" : "Projets Personnels";
-    var research_interests = english ? "My research/work interests include computational linguistics, natural language processing, machine translation, machine learning and pure linguistics."
-    : "Je m'interesse en linguistique computationelle, au traitement du langage naturel, en traduction automatique, en aprentissage en machine et en linguistique théorique.";
+    var research_interests = english ? "My interests include data science, applied and theoretical machine learning, natural language processing, audio processing and pure linguistics."
+    : "Je m'interesse en sciences de données, en aprentissage en machine, au traitement du langage naturel, au traitement audio et en linguistique théorique.";
 
 
     return (
