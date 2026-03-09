@@ -10,8 +10,8 @@ function Navbar({lang}) {
         return (
             <nav class = "navbar navbar-expand-lg pt-3 pl-3 bg-body-tertiary">
                 <p class="nav-link px-3"><Link to={"/"+lang}>Home</Link></p>
-                <p id = "dropdown" class="nav-link px-3"><Link to={"/"+lang+"/tutoring"}><b>Tutoring</b></Link></p>
                 <p class="nav-link px-3"><Link to={"/"+lang+"/personalprojects"}>Personal Projects</Link></p>
+                <p id = "dropdown" class="nav-link px-3"><Link to={"/"+lang+"/tutoring"}><b>Tutoring</b></Link></p>
             </nav>
         );
     }
@@ -20,8 +20,8 @@ function Navbar({lang}) {
         return (
             <nav class = "navbar navbar-expand-lg pt-3 pl-3 bg-body-tertiary">
                 <p class="nav-link px-3"><Link to={"/"+lang}>Home</Link></p>
-                <p id = "dropdown" class="nav-link px-3"><Link to={"/"+lang+"/tutoring"}>Tutoring</Link></p>
                 <p class="nav-link px-3"><Link to={"/"+lang+"/personalprojects"}><b>Personal Projects</b></Link></p>
+                <p id = "dropdown" class="nav-link px-3"><Link to={"/"+lang+"/tutoring"}>Tutoring</Link></p>
             </nav>
         );
     }
@@ -30,8 +30,8 @@ function Navbar({lang}) {
         return (
             <nav class = "navbar navbar-expand-lg pt-3 pl-3 bg-body-tertiary">
                 <p class="nav-link px-3"><Link to={"/"+lang}><b>Home</b></Link></p>
-                <p id = "dropdown" class="nav-link px-3"><Link to={"/"+lang+"/tutoring"}>Tutoring</Link></p>
                 <p class="nav-link px-3"><Link to={"/"+lang+"/personalprojects"}>Personal Projects</Link></p>
+                <p id = "dropdown" class="nav-link px-3"><Link to={"/"+lang+"/tutoring"}>Tutoring</Link></p>
             </nav>
         );
     }
